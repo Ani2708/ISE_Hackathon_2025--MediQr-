@@ -1,0 +1,18 @@
+<html>
+<head><title>Patient Profile</title></head>
+<body>
+    <h1>Emergency Medical Data</h1>
+    <p><b>Name:</b> {{ data.name }}</p>
+    <p><b>Age:</b> {{ data.age }}</p>
+    <p><b>Blood Group:</b> {{ data.blood }}</p>
+    <p><b>Allergy:</b> {{ data.allergy }}</p>
+    <p><b>Emergency Contact:</b> {{ data.emergency_contact }}</p>
+
+    <h3>Prescriptions:</h3>
+    <ul>
+    {% for p in data.prescriptions %}
+        <li>{{ p }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
