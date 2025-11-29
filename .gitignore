@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+dist/
+uploads/
+
+# Build files
+build/
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+models/
+data/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
